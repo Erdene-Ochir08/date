@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Would you like to go on a date?</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="cli">
+    <p>Welcome to the Date Invitation</p>
+    <p id="type">Type 'date' to go on a date! Then click enter or click return</p>
+    <img src="hello.gif" id="pic">
+    <p id="response"></p>
+    <p id="warning"></p>
+    <a href="https://maps.app.goo.gl/h3ZTTCABeTuMGUDA8" id="location" style="display: none;" target="_blank">See Location</a>
+    <input type="text" id="input" onkeypress="handleKeyPress(event)">
+    <input type="date" id="date" style="display: none;">
+    <input type="time" id="time" style="display: none;">
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
